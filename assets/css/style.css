@@ -242,6 +242,7 @@ body {
 .header.nav-active {
   height: 335px;
   transition-duration: 0.35s;
+  
 }
 
 .header > .container {
@@ -278,6 +279,8 @@ body {
 .header.nav-active .navbar {
   visibility: visible;
   opacity: 1;
+  
+  
 }
 
 .navbar-link {
@@ -285,6 +288,7 @@ body {
   font-family: var(--ff-barlow);
   padding-block: 3px;
   transition: var(--transition-1);
+  
 }
 
 .navbar-link:is(:hover, :focus) { color: var(--orange-soda); }
@@ -807,7 +811,7 @@ textarea.contact-input {
 
   .header,
   .header.nav-active {
-    background-color: transparent;
+    background-color: #596dc4;
     box-shadow: none;
     height: unset;
     padding-block: 30px;
@@ -1040,7 +1044,88 @@ textarea.contact-input {
     gap: 25px;
   }
 
+  /*
+  QUOTE
+  */
+
+.body-quote{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  color: var(--space-cadet);
   
+}
+
+.quotecontainer {
+	width: 600px;
+	height: 380px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  margin-bottom: 8rem;
+  justify-content: center;
+  
+
+}
+.header-quote {
+	text-align: center;
+	margin-bottom: 50px;
+  padding-top: 15px;
+}
+.header-quote h2 {
+    
+    color: #2f2e40;
+}
+.main-content {
+	width: 100%;
+	height: 300px;
+	padding: 50px 40px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 25px 31px 0 rgba(0,0,0,0.5);
+}
+
+.text-area {
+	text-align: center;
+	font-size: 20px;
+	color: #2f2e40;
+	line-height: 1.5;
+    
+}
+.text-area .icon {
+    margin-right: 5px;
+}
+.main-content-quote .writer {
+  text-transform: uppercase;
+	letter-spacing: 5px;
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	
+}
+.main-content-quote .button-area {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+.button-area .btn button {
+    background-color: #2f2e40;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    
+}
+.button-area button:active {
+    background-color: deepskyblue;
+}
+
 
   /**
    * FOOTER
