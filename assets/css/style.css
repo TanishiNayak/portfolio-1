@@ -555,9 +555,8 @@ textarea.contact-input {
 .contact-item:not(:last-child) { margin-block-end: 20px; }
 
 .contact-icon {
-  background-color: var(--glaucous);
+  background-color: #596dc4;
   font-size: 2.4rem;
-  padding: 20px;
   border-radius: 50%;
 }
 
@@ -674,11 +673,12 @@ textarea.contact-input {
 
 .back-to-top {
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 5rem;
   position: fixed;
-  bottom: 160px;
-  right: -30px;
-  transform: rotate(0.25turn);
+  bottom: 20px;
+  padding-right: 2rem;
+  
+  
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-2);
@@ -885,15 +885,15 @@ textarea.contact-input {
   }
 
   .elem-1 {
-    top: 20px;
-    left: -130px;
+    top: 80px;
+    left: -100px;
   }
 
   .elem-1 .elem-title { color: var(--vivid-sky-blue); }
 
   .elem-2 {
     bottom: 30px;
-    right: -80px;
+    right: -120px;
   }
 
   .elem-2 .elem-title { color: var(--fiery-rose); }
@@ -918,20 +918,6 @@ textarea.contact-input {
   .elem-3 ion-icon {
     color: var(--minion-yellow);
     font-size: 6rem;
-  }
-
-  .rotate-img {
-    display: block;
-    position: absolute;
-    bottom: -60px;
-    left: -60px;
-    width: 120px;
-    animation: rotate360 15s linear infinite reverse;
-  }
-
-  @keyframes rotate360 {
-    0% { transform: rotate(0); }
-    100% { transform: rotate(1turn); }
   }
 
 
@@ -1029,7 +1015,7 @@ textarea.contact-input {
 
   .contact-item { gap: 25px; }
 
-  .contact-icon { padding: 30px; }
+  .contact-icon { padding: 12px; }
 
 
 
