@@ -552,7 +552,7 @@ textarea.contact-input {
   gap: 15px;
 }
 
-.contact-item:not(:last-child) { margin-block-end: 20px; }
+.contact-item:not(:last-child) { margin-block-end: 15px; }
 
 .contact-icon {
   background-color: #596dc4;
@@ -1013,7 +1013,7 @@ textarea.contact-input {
 
   .contact-form { margin-block-end: 0; }
 
-  .contact-item { gap: 25px; }
+  .contact-item { gap: 20px; }
 
   .contact-icon { padding: 12px; }
 
