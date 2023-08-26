@@ -1070,7 +1070,10 @@ textarea.contact-input {
     
 }
 .button-area button:active {
-    background-color: deepskyblue;
+    background-color: var(--orange-soda);
+}
+.button-area button:hover {
+  background-color: var(--orange-soda);
 }
 
 
